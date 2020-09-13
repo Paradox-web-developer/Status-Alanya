@@ -199,7 +199,6 @@ header{
 	display: flex;
 	width: 196px;
 	height: 46px;
-	background-color: #4977E0;
 	color: #ffffff;
  
   position: relative;
@@ -207,23 +206,13 @@ header{
   
 }
 
-#btn_modal_window i {
 
-    border: solid #fff;
-    border-width: 0 3px 3px 0;
-    display: inline-block;
-    padding: 3px;
 
-}
 
-#btn_modal_window .right {
-    transform: rotate(-45deg);
-    -webkit-transform: rotate(-45deg);
-} 
 
 #btn_modal_window{
 	background-color: #3761C2;
-	width: 50px;
+	width: 200px;
 	height: 46px;
 	text-decoration: none;
   	outline: none;
