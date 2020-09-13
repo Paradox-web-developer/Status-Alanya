@@ -298,7 +298,7 @@ header{
 .modal_content input[type="checkbox"], label{
   display: inline-block;
   vertical-align: middle;
-  opacity: 0.8;
+  opacity: 0.1;
 }
 .modal_content label a{
 	text-decoration: none;
