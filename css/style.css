@@ -222,6 +222,8 @@ header{
 	position: absolute;
 	top: 0;
 	right: 0;
+	color: #fff;
+	font-size: 24px;
 }
 #btn_modal_window:hover{
 	background: #4977E0;
