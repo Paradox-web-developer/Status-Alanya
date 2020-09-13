@@ -65,7 +65,7 @@
 	
 </div>
 </header>
-<content>
+<main>
 	<div class="content">
 	<div class="content__image"> 
     	<div class="content__group">
@@ -89,8 +89,9 @@
 	 <div class="content__sale">30.000 евро</div>
 
 	<div class="content__btn">
-		<h2 class="btn__text">Подробнее</h2>
-		<button id="btn_modal_window"  type="submit"> <i class="arrow right"></i> </button>
+		<button id="btn_modal_window"  type="submit">
+			<h2 class="btn__text">Подробнее</h2>
+		 <i class="arrow right"></i> </button>
 	</div>
 	
 
@@ -152,13 +153,13 @@
 	
 </div>
 </div>
-</content>
+</main>
 
 <div class="modal" id="myModal">
 		<div class="modal_content">
 			<button class="class-button" id="close-button">X</button>
 			<h1 class="modal__text">Оставте заявку и получите <br /> полный список обьектов</h1>
-			<form action="POST" >
+			<form type="POST" >
 				<div class="form__content">
 			<input type="text" name="name" placeholder="Ведите имя">
 			<input type="telephone" name="telephone" placeholder=" +38 (xxx) xxx-xxx">
