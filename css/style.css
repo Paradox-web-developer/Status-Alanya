@@ -14,19 +14,20 @@ body{
 
  
 header{
+
+}
+
+.header{
+	margin: 0 auto;
 	display: flex;
 	justify-content: center;
-  background:linear-gradient(32.02deg, #3761C2 1.73%, rgba(21, 87, 164, 0.00325107) 96.5%, rgba(0, 0, 0, 0.0001) 96.77%),url(../img/backgraund.png);
+  	background:linear-gradient(32.02deg, #3761C2 1.73%, rgba(21, 87, 164, 0.00325107) 96.5%, rgba(0, 0, 0, 0.0001) 96.77%),url(../img/backgraund.png);
 	background-size:cover;
 	background-position: center;
 	background-repeat: no-repeat;
 	mix-blend-mode: normal; 
 	height: auto;
 	margin-bottom: 100px;
-}
-
-.header{
-	margin: 0 auto;
 }
 .header__logo{
   margin-right: 20px;
