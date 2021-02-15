@@ -206,9 +206,6 @@ header{
 }
 
 
-
-
-
 #btn_modal_window{
 	background-color: #3761C2;
 	width: 200px;
@@ -270,10 +267,11 @@ header{
 .class-button{
 	float: right;
 	color: #323232;
-	font-size:30px;
+	font-size:25px;
+	font-weight: 300;
 	border: none;
-
-
+	outline: none;
+	background-color: #fff;
 }
 
 .modal input[type="text"]{
@@ -510,9 +508,6 @@ z-index: 999;
 	}
 }
 
-
-
-/* Large desktops and laptops */
 @media (max-width: 630px) {
 	.menu__list{
 		display: flex;
@@ -534,67 +529,6 @@ z-index: 999;
 
 }
 
-
-@media (max-width: 1190px){
-	
-
-
-@media (max-width:730px){
-	
-
-
-
-
-
-
-
-
-/*	.header__menu{
-		display: none;
-		flex-direction:column;
-		position:absolute;
-		right:0;
-		top:0;
-		background-color:#9D2929;
-		width:250px;
-		padding-bottom: 40px;
-	}
-	.header-active{
-		display: block;
-	}
-	.header__logo{
-		padding-left:110px;
-		margin-bottom: 25px;
-	}
-
-	.menu__list{
-		margin:auto;
-		order:2;
-		display: flex;
-		flex-direction: column;
-		align-items: center;
-	} 
-	.menu__link{
-		margin-right:0;
-		margin-bottom: 17px;
-	}  
-	.headet__contact{
-		order:1;
-		margin-left:80px;
-		margin-bottom: 22px; 
- 
-	}
-
-
-	.title__text{
-		margin-top: 100px;
-		margin-bottom: 100px;
-		font-size: 35px;
-	} */
-	}
-
-
-/* Portrait tablets and small desktops */
 @media  (max-width: 770px) {
      
 	.request__text{
@@ -622,21 +556,6 @@ z-index: 999;
 	
 	}
 
-
-	
 }
 
-/* Landscape phones and portrait tablets */
-@media (max-width: 767px) {
 
-}
-
-/* Portrait phones and smaller */
-@media (max-width: 480px) {
-
-}
-
-/* Iphone 5 */
-@media (max-width: 320px) {
-
-}
